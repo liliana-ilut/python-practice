@@ -56,3 +56,18 @@ print(first_line)
 
 second_line = a / b
 print(second_line)
+
+# QUESTION 3:
+# The provided code stub reads and integer, , from STDIN(Standard input). For all non-negative integers i <n , print i^2 .
+
+# Example
+# n=3
+
+# The list of non-negative integers that are less than n=3 is [0,1,2] . Print the square of each number on a separate line.
+
+if __name__ == '__main__':
+    n = int(input())
+    
+    for n in range (0,n):
+        square = n ** 2
+        print(square)
